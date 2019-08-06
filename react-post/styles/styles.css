@@ -1,0 +1,44 @@
+.ml-auto {
+  margin-left: auto; }
+
+.modal-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  opacity: 0.7; }
+
+.modal-content {
+  width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1001;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px; }
+  .modal-content input {
+    width: 340px !important; }
+  .modal-content ul {
+    height: 400px;
+    overflow: auto; }
+
+.divider {
+  width: 100%;
+  height: 2px;
+  background-color: grey;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  opacity: 0.3; }
+
+.pf {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  padding: 100px; }
