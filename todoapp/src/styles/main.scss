@@ -1,0 +1,14 @@
+@import "./components/app-header.scss";
+@import "./components/item-status-filter.scss";
+@import "./components/search-panel.scss";
+@import "./components/todo-list.scss";
+@import "./components/todo-list-item.scss";
+@import "./components/item-add-form.scss";
+
+.todo-app{
+    max-width: 400px;
+    margin: 2rem auto 0 auto;
+}
+.top-panel{
+    margin: 20px 0px;
+}

@@ -1,0 +1,42 @@
+.app-header h1 {
+  flex-grow: 1; }
+
+.app-header h2 {
+  font-size: 17px;
+  color: grey; }
+
+.search-input {
+  flex-grow: 1;
+  margin-right: 3px; }
+
+.todo-list .list-group-item {
+  padding: 5px 10px; }
+
+.todo-list-item {
+  font-size: 24px; }
+  .todo-list-item button {
+    width: 50px;
+    margin: 3px;
+    text-align: center; }
+  .todo-list-item-label {
+    user-select: none;
+    cursor: pointer;
+    line-height: 35px; }
+  .todo-list-item.done {
+    text-decoration: line-through; }
+  .todo-list-item.important {
+    color: steelblue;
+    font-weight: bold; }
+
+.item-add-form {
+  margin-top: 10px;
+  justify-content: center; }
+  .item-add-form input {
+    flex-grow: 1; }
+
+.todo-app {
+  max-width: 400px;
+  margin: 2rem auto 0 auto; }
+
+.top-panel {
+  margin: 20px 0px; }
