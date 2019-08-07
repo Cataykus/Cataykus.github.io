@@ -1,0 +1,304 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#009ee3">
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" media="all" href="styles/styles.css" />
+    <title>Главная страница</title>
+</head>
+
+<body id="body">
+
+    <!-- BEGIN overlay -->
+    <div class="mobile-navigation-overlay"></div>
+    <!-- END overlay -->
+
+    <!-- BEGIN wrapper -->
+    <div class="wrapper">
+
+
+        <!-- BEGIN front -->
+        <section class="front front-page" id="front" style="background-image: url('images/front-bg.jpg');">
+            <!-- BEGIN header -->
+            <header class="header" id="header">
+                <div class="header__inner">
+                    <a href="/" class="logo">
+                        <img class="logo__image" src="images/logo.png" alt="">
+                        <p class="logo__text">
+                            <strong>Bit</strong>
+                            <span>Beeps</span>
+                        </p>
+                    </a>
+                    <ul class="menu">
+                        <li>
+                            <a class="active" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="referal.html">Referal</a>
+                        </li>
+                        <li>
+                            <a href="exchange.html">Exchange</a>
+                        </li>
+                        <li>
+                            <a href="wallet.html">Wallet</a>
+                        </li>
+                        <li>
+                            <a href="faq.html">FAQ’s</a>
+                        </li>
+                        <li>
+                            <a href="support.html">Support</a>
+                        </li>
+                    </ul>
+                    <div class="user-navigation">
+                        <a href="login.html" class="user-navigation__login">Login</a>
+                        <a href="login.html" class="user-navigation__sign">Sign up</a>
+                        <div class="user-navigation__languages">
+                            <div class="user-navigation__selected">
+                                <a href="#">
+                                    <img src="images/eng.png" alt="">
+                                </a>
+                            </div>
+                            <div class="user-navigation__list">
+                                <a href="#">
+                                    <img src="images/l-2.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/l-3.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/l-4.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="humburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </header>
+            <!-- END header -->
+            <div class="container">
+                <div class="front-page__inner">
+                    <h1 class="front-page__title">Register</h1>
+                    <p class="front-page__desc">Bitcoin are listed questions and answers, all supposed to be commonly<br> asked in some context, and pertaining to a particular topic</p>
+                </div>
+            </div>
+        </section>
+        <!-- END front -->
+
+        <!-- BEGIN register-page -->
+        <section class="register-page" id="register-page">
+            <div class="container">
+                <div class="register-page__inner">
+                    <div class="register-page__item">
+                        <form class="login-form	sign-in">
+                            <h3 class="login-form__title">Sign In</h3>
+                            <input type="email" class="login-form__input" placeholder="Email" required>
+                            <input type="password" class="login-form__input login-form__input--password" placeholder="Password" required>
+                            <a class="login-form__link" href="#">I forgot my password</a>
+                            <button class="button button--accent login-form__button" type="submit">Submit</button>
+                            <p class="login-form__bottom">
+                                <a href="#">Sign Up</a> if you don’t have an account</p>
+                        </form>
+                    </div>
+                    <div class="register-page__item">
+                        <form class="login-form	register-form">
+                            <h3 class="login-form__title">Register</h3>
+                            <input type="text" class="login-form__input" placeholder="Name" required>
+                            <input type="email" class="login-form__input" placeholder="Email" required>
+                            <input type="password" class="login-form__input login-form__input--password" placeholder="Password" required>
+                            <input type="password" class="login-form__input login-form__input--password" placeholder="Confirm Password" required>
+                            <p class="policy">
+                                <input type="checkbox" id="policy__check" class="policy__check">
+                                <label for="policy__check">I agree with
+                                    <a href="#">Terms of Services</a>
+                                </label>
+                            </p>
+                            <button class="button button--accent login-form__button" type="submit">Submit</button>
+                            <p class="login-form__bottom">
+                                <a href="#">Sign Up</a> if you don’t have an account</p>
+                        </form>
+                    </div>
+                    <div class="register-page__item">
+                        <form class="login-form	sign-up">
+                            <h3 class="login-form__title">Sign Up</h3>
+                            <p class="login-form__desc">We sent the code to your email address. <br>Please, check your inbox or spam folder.</p>
+                            <input type="number" class="login-form__input" placeholder="Enter PIN" required>
+                            <button class="button button--accent login-form__button" type="submit">Submit</button>
+                        </form>
+                        <form class="login-form	password-recovey">
+                            <h3 class="login-form__title">Password Recovery</h3>
+                            <input type="number" class="login-form__input" placeholder="Enter PIN" required>
+                            <button class="button button--accent login-form__button" type="submit">Submit</button>
+                            <p class="login-form__bottom">Back to
+                                <a href="#">Sign In</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END register-page -->
+
+        <!-- BEGIN footer -->
+        <footer class="footer" id="footer">
+            <div class="container">
+                <a href="/" class="logo">
+                    <img class="logo__image" src="images/logo.png" alt="">
+                    <p class="logo__text">
+                        <strong>Bit</strong>
+                        <span>Beeps</span>
+                    </p>
+                </a>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <strong>SUBSCRIBE</strong>
+                        <ul>
+                            <li>
+                                <a href="#">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#">WIKI</a>
+                            </li>
+                            <li>
+                                <a href="#">Fees & Limits</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Program</a>
+                            </li>
+                            <li>
+                                <a href="#">Cashback</a>
+                            </li>
+                            <li>
+                                <a href="#">About Bitcoin</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <strong>PRODUCTS</strong>
+                        <ul>
+                            <li>
+                                <a href="#">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#">WIKI</a>
+                            </li>
+                            <li>
+                                <a href="#">Fees & Limits</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Program</a>
+                            </li>
+                            <li>
+                                <a href="#">Cashback</a>
+                            </li>
+                            <li>
+                                <a href="#">About Bitcoin</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <strong>INFORMATION</strong>
+                        <ul>
+                            <li>
+                                <a href="#">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#">WIKI</a>
+                            </li>
+                            <li>
+                                <a href="#">Fees & Limits</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Program</a>
+                            </li>
+                            <li>
+                                <a href="#">Cashback</a>
+                            </li>
+                            <li>
+                                <a href="#">About Bitcoin</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <strong>COMPANY</strong>
+                        <ul>
+                            <li>
+                                <a href="#">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#">WIKI</a>
+                            </li>
+                            <li>
+                                <a href="#">Fees & Limits</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Program</a>
+                            </li>
+                            <li>
+                                <a href="#">Cashback</a>
+                            </li>
+                            <li>
+                                <a href="#">About Bitcoin</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="footer__item">
+                        <strong>LEGAL DOCUMENTS</strong>
+                        <ul>
+                            <li>
+                                <a href="#">Customer support</a>
+                            </li>
+                            <li>
+                                <a href="#">WIKI</a>
+                            </li>
+                            <li>
+                                <a href="#">Fees & Limits</a>
+                            </li>
+                            <li>
+                                <a href="#">Referral Program</a>
+                            </li>
+                            <li>
+                                <a href="#">Cashback</a>
+                            </li>
+                            <li>
+                                <a href="#">About Bitcoin</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="footer__bottom">
+                    <p class="copyright">Copyright © BitBeeps FINANCE LLP 2013 - 2018</p>
+                    <div class="footer__nav">
+                        <a href="#">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END footer -->
+
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- BEGIN scripts -->
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/libraries.js"></script>
+    <script src="javascript/scripts.js"></script>
+    <!-- END scripts -->
+
+</body>
+
+</html>
