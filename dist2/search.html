@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <!-- <link href="/styles/styles.css" rel="stylesheet">-->
+  <title>Поиск</title>
+</head>
+
+<body>
+  <header>
+    <div class="modal-price" id="modal-price">
+      <div class="modal-price-background"></div>
+      <div class="modal-price-inner">
+        <h3>Стоимость работы от <span>999р.</span></h3>
+        <p>Вы можете самостоятельно позвонить в сервисный центр по номеру <span>+7 (999) 999-99-99</span> или заказать
+          звонок, чтобы
+          записаться на бесплатную диагностику :</p>
+        <div class="group">
+          <input type="text" placeholder="Введите имя">
+          <input type="text" placeholder="Введите номер">
+          <button class="button">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-price modal-call" id="modal-call">
+      <div class="modal-price-background"></div>
+      <div class="modal-price-inner">
+        <h3>Стоимость работы от <span>999р.</span></h3>
+        <p>Вы можете самостоятельно позвонить в сервисный центр по номеру <span>+7 (999) 999-99-99</span> или заказать
+          звонок, чтобы
+          записаться на бесплатную диагностику :</p>
+        <div class="group">
+          <input type="text" placeholder="Введите имя">
+          <input type="text" placeholder="Введите номер">
+          <button class="button">Заказать звонок</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="menu">
+        <a class="link active" href="index.html">Главная</a>
+        <a class="link" href="services.html">Услуги</a>
+        <a class="link" href="pay_and_delivery.html">Оплата и доставка</a>
+        <a class="link" href="contacts.html">Контакты</a>
+        <a href="#">Нижний Новгород</a>
+      </div>
+      <div class="info">
+        <div class="logo">
+          <img class="menu-btn" id="menu-button" src="img/menu.svg" alt="menu">
+          <a href="index.html"><img src="img/IT-DOM (1).svg" alt="IT-DOM"></a>
+          <img class="search-btn" id="search-button" src="img/search.svg" alt="search">
+        </div>
+        <div class="middle">
+          <div class="search">
+            <input type="text" placeholder="искать">
+            <div class="dropdown" id="menu-dropdown">
+              принтер/картридж
+              <div class="toggle" id="menu-toggle">
+                <div class="toggle-content" id="for-toggle-1">
+                  <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+                  <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+                  <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+                </div>
+                <div class="toggle-content" id="for-toggle-2">
+                  <button class="toggle-content-item">Картридж HP 750 CZ101AE</button>
+                  <button class="toggle-content-item">Картридж HP 750 CZ101AE</button>
+                  <button class="toggle-content-item">Картридж HP 750 CZ101AE</button>
+                </div>
+                <div class="toggle-items">
+                  <button class="toggle-item" id="toggle-1">принтер/картридж</button>
+                  <button class="toggle-item" id="toggle-2">по всему сайту</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts">
+            <p>+7 (953) 123-12-12</p>
+            <p>+7 (953) 123-12-12</p>
+          </div>
+          <button class="button button-call" id="button-call-1">Заказать звонок</button>
+        </div>
+      </div>
+      <div class="menu-wrapper" id="menu-wrapper">
+        <div class="menu-wrapper-menu">
+          <a class="link active" href="index.html">Главная</a>
+          <a class="link" href="services.html">Услуги</a>
+          <a class="link" href="pay_and_delivery.html">Оплата и доставка</a>
+          <a class="link" href="contacts.html">Контакты</a>
+          <a href="#">Нижний Новгород</a>
+        </div>
+        <div class="menu-wrapper-info">
+          <div class="middle">
+            <div class="contacts">
+              <p>+7 (953) 123-12-12</p>
+              <p>+7 (953) 123-12-12</p>
+            </div>
+            <button class="button button-call" id="button-call-2">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-search-container" id="modal-search">
+      <div class="modal-search">
+        <input type="text" placeholder="искать">
+        <div class="dropdown">
+          принтер/картридж
+          <div class="toggle" id="menu-toggle-2">
+            <div class="toggle-content" id="for-toggle-1-2">
+              <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+              <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+              <button class="toggle-content-item">Картридж HP 650 CZ101AE</button>
+            </div>
+            <div class="toggle-content" id="for-toggle-2-2">
+              <button class="toggle-content-item">Картридж HP 550 CZ101AE</button>
+              <button class="toggle-content-item">Картридж HP 550 CZ101AE</button>
+              <button class="toggle-content-item">Картридж HP 550 CZ101AE</button>
+            </div>
+            <div class="toggle-items">
+              <button class="toggle-item" id="toggle-1-2">принтер/картридж</button>
+              <button class="toggle-item" id="toggle-2-2">по всему сайту</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="search-section">
+    <div class="container">
+      <div class="results">
+        <h3>Результаты поиска</h3>
+        <p>Показаны результаты поиска по запросу <span>hp 650</span></p>
+      </div>
+      <div class="catalog">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="catalog-item">
+              <div class="catalog-item-top">
+                <div class="label">
+                  <img src="img/logo.png" alt="hp">
+                  <p>Картридж HP 650</p>
+                </div>
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Тип</p>
+                    <div class="divider-stroke"></div>
+                    <p>струйный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Цвет</p>
+                    <div class="divider-stroke"></div>
+                    <p>черный</p>
+                  </div>
+                  <div class="stroke">
+                    <p>Номер</p>
+                    <div class="divider-stroke"></div>
+                    <p>CZ101AE</p>
+                  </div>
+                </div>
+              </div>
+              <div class="divider"></div>
+              <div class="catalog-item-bottom">
+                <div class="stats">
+                  <div class="stroke">
+                    <p>Заправка</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                  <div class="stroke">
+                    <p>Ремонт</p>
+                    <div class="divider-stroke"></div>
+                    <p class="ml-auto">от <span>999 ₽</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="page-navigation">
+        <span>Назад</span>
+        <div class="links">
+          <a href="#">1</a>
+          <a class="active" href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">...</a>
+          <a href="#">6</a>
+        </div>
+        <span>Вперед</span>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="call-section">
+    <div class="container">
+      <h2>Остались вопросы?</h2>
+      <form class="main">
+        <div class="input-group">
+          <input type="text" placeholder="Введите имя">
+          <input type="text" placeholder="Введите номер">
+        </div>
+        <textarea placeholder="Комментарий"></textarea>
+        <div class="footer">
+          <p> Нажимая кнопку “заказать звонок”, я принимаю <a href="#">условия</a> обработки моих данных</p>
+          <button class="button button-call" type="submit">Заказать звонок</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md">
+          <div class="logo">
+            <img src="img/logoDark.svg" alt="IT-DOM">
+          </div>
+          <p>Ремонт техники и заправка картриджей</p>
+          <p>Политика конфиденциальности Политика обработки персональных данных</p>
+        </div>
+        <div class="col-md-2">
+          <div class="collapse-container">
+            <div class="collapse-toggler" id="collapse-toggler-3">
+              <h4>Ремонт техники</h4>
+            </div>
+            <div class="collapse-divider"></div>
+
+            <div class="collapse-content" id="collapse-content-3">
+              <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Каталог</a></li>
+                <li><a href="#">О компании</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="collapse-container">
+            <div class="collapse-toggler" id="collapse-toggler-2">
+              <h4>Навигация</h4>
+            </div>
+            <div class="collapse-divider"></div>
+            <div class="collapse-content" id="collapse-content-2">
+              <ul>
+                <li><a href="">Смартфоны</a></li>
+                <li><a href=""> Ноутбуки и ПК</a></li>
+                <li><a href="">Телевизоры</a></li>
+                <li><a href="">Игровые приставки</a></li>
+                <li><a href="">Видеорегистраторы</a></li>
+                <li><a href="">Принтеры и МФУ</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="collapse-container">
+            <div class="collapse-toggler toggle-active" id="collapse-toggler-1">
+              <h4>Связаться с нами</h4>
+            </div>
+            <div class="collapse-divider"></div>
+
+            <div class="collapse-content expanded active" id="collapse-content-1">
+              <ul>
+                <li>603000 Нижний Новгород, ул. Родионова, 193/1</li>
+                <li>+7 (953) 123-12-12</li>
+                <li>Часы работы: ПН-ПТ 8:00-19:00</li>
+                <li><a href="#">ВКонтакте</a></li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="city-link">
+            <a href="#">Нижний Новгород</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--<script type="text/javascript" src="index-bundle.js"></script>-->
+<script type="text/javascript" src="index-bundle.js"></script></body>
+
+</html>
