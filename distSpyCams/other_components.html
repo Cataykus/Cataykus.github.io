@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SpyCam</title>
+</head>
+
+<body style="height: 6000px;">
+
+  <div class="live-player">
+    <img src="img/Live_Player.png" alt="player">
+  </div>
+
+  <div class="translation-buttons" style="display: flex">
+    <button class="plan-button"><img src="img/plan.svg" alt="plan">Plan</button>
+    <button class="chat-button"><i class="far fa-comments-alt"></i>Chat</button>
+    <button class="fav-button"><img src="img/star.svg" alt="star"></button>
+  </div>
+
+  <div class="apartaments-chat">
+
+    <div class="plan">
+      <h1>Apartment plan</h1>
+      <img src="img/plan.png" alt="plan">
+      <div class="controls">
+        <div class="active"></div>
+        <div class="deactive"></div>
+      </div>
+      <div class="list">
+        <div class="list-item">
+          <h3>1. Balcony - #1</h3>
+        </div>
+        <div class="list-item active">
+          <h3>2. Balcony - #2</h3>
+        </div>
+        <div class="list-item">
+          <h3>3. Balcony - #3</h3>
+        </div>
+        <div class="list-item">
+          <h3>4. Balcony - #4</h3>
+        </div>
+        <div class="list-item">
+          <h3>5. Balcony - #5</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat">
+      <div class="chat-header">
+        <h3>Broadcast chat</h3>
+      </div>
+      <div class="chat-inner">
+        <div class="token pink">
+          <p>Justin2010 tipped 20 Tokens to Maddy!</p>
+        </div>
+        <div class="token orange">
+          <p>RealTommy tipped 20 Tokens to Maddy!</p>
+        </div>
+        <div class="comment">
+          <p> <span class="blue">Richard</span>: Christine u look like a real Greek in costume... absolute sexy</p>
+        </div>
+        <div class="comment">
+          <p> <span class="brightOrange">Charlie</span>: Christine u look like a real Greek in costume... absolute sexy
+          </p>
+        </div>
+      </div>
+      <div class="chat-footer">
+        <input type="text" placeholder="Type a message here">
+        <button class="emoji"><img src="img/emoji.svg" alt="emoji"></button>
+        <button class="send"><img src="img/arrow-right.svg" alt="right"></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="logos">
+    <div class="logo-light">
+      <img src="img/logo-light.svg" alt="">
+    </div>
+
+    <div class="logo-dark">
+      <img src="img/logo-dark.svg" alt="">
+    </div>
+
+    <div class="logo">
+      <img src="img/logo.svg" alt="">
+    </div>
+  </div>
+
+  <div class="buy-tokens">
+    <h1>BUY TOKENS</h1>
+    <h4>Choose tokens plan</h4>
+    <div class="buy-tokens-grid">
+      <div class="buy-tokens-grid-item">
+        <h2>76 tokens <span>for 4.99$</span></h2>
+        <p>(-0.066$ for token) </p>
+      </div>
+      <div class="buy-tokens-grid-item">
+        <h2>984 tokens <span>for 49.99$</span></h2>
+        <p>(-0.051$ for token) </p>
+      </div>
+      <div class="buy-tokens-grid-item active">
+        <h2>156 tokens <span>for 9.99$</span></h2>
+        <p>(-0.064$ for token) </p>
+      </div>
+      <div class="buy-tokens-grid-item">
+        <h2>1260 tokens <span>for 64.99$</span></h2>
+        <p>(-0.052$ for token) </p>
+      </div>
+      <div class="buy-tokens-grid-item">
+        <h2>462 tokens <span>for 24.99$</span></h2>
+        <p>(-0.054$ for token) </p>
+      </div>
+      <div class="buy-tokens-grid-item">
+        <h2>1480 tokens <span>for 74.99$</span></h2>
+        <p>(-0.051$ for token) </p>
+      </div>
+    </div>
+    <button class="buy-tokens-button">BUY TOKENS</button>
+  </div>
+
+  <div class="plans">
+    <div class="plans-item">
+      <div class="plans-item-top">
+        <h3>FREE</h3>
+        <div class="middle">
+          <p><span>0</span>tokens</p>
+          <span>or</span>
+          <p><span>0</span>dollars</p>
+        </div>
+      </div>
+      <button class="plans-item-button">Year</button>
+    </div>
+    <div class="plans-item">
+      <div class="plans-item-top">
+        <h3>SILVER</h3>
+        <div class="middle">
+          <p><span>9</span>tokens</p>
+          <span>or</span>
+          <p><span>9</span>dollars</p>
+        </div>
+      </div>
+      <button class="plans-item-button">Year</button>
+    </div>
+    <div class="plans-item">
+      <div class="plans-item-top">
+        <h3>GOLD</h3>
+        <div class="middle">
+          <p><span>49</span>tokens</p>
+          <span>or</span>
+          <p><span>99</span>dollars</p>
+        </div>
+      </div>
+      <button class="plans-item-button">Year</button>
+    </div>
+    <div class="plans-item">
+      <div class="plans-item-top">
+        <h3>PREMIUM</h3>
+        <div class="middle">
+          <p><span>99</span>tokens</p>
+          <span>or</span>
+          <p><span>99</span>dollars</p>
+        </div>
+      </div>
+      <button class="plans-item-button">Year</button>
+    </div>
+  </div>
+
+
+  <div style="width: 100%; height: 50px"></div>
+
+
+  <div class="tokens">
+    <div class="tokens-grid">
+      <div class="tokens-grid-item">
+        <h2>76 tokens <span>for 4.99$</span></h2>
+      </div>
+      <div class="tokens-grid-item">
+        <h2>984 tokens <span>for 49.99$</span></h2>
+      </div>
+      <div class="tokens-grid-item active">
+        <h2>156 tokens <span>for 9.99$</span></h2>
+      </div>
+      <div class="tokens-grid-item">
+        <h2>1260 tokens <span>for 64.99$</span></h2>
+      </div>
+      <div class="tokens-grid-item">
+        <h2>462 tokens <span>for 24.99$</span></h2>
+      </div>
+      <div class="tokens-grid-item">
+        <h2>1480 tokens <span>for 74.99$</span></h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="popup-main">
+    <h2>See <span>ALL CAMERAS</span> without limitations</h2>
+    <div class="content">
+      <p>Make your dreams come true!</p>
+      <p><span>Get free PREMIUM ACCOUNT</span> for a full hour!</p>
+      <p>As a gift you will receive <span>fireproof Silver status!</span></p>
+    </div>
+    <button class="popup-main-button">
+      BUY PREMIUM
+    </button>
+  </div>
+
+  <div class="profile-popup">
+    <h3><i class="far fa-user"></i>email@spymycams.com</h3>
+    <p class="active"> <i class="fal fa-id-card"></i>My Profile</p>
+    <p> <i class="far fa-cog"></i>Settings</p>
+    <p> <i class="far fa-sign-out"></i>Logout</p>
+  </div>
+
+  <div class="login-form">
+    <h3>Already have an account?</h3>
+    <div class="inputs">
+      <input type="text" placeholder="Username">
+      <input type="text" placeholder="Password">
+    </div>
+    <button class="login-form-button">
+      Login
+    </button>
+    <span class="forgot-password">Forgot password?</span>
+  </div>
+
+  <div class="restore-password-form">
+    <h3>
+      We will send a password restoration link to the e-mail address saved in your account.
+    </h3>
+    <div class="inputs">
+      <input type="text" placeholder="Username or email">
+    </div>
+    <button class="restore-password-form-button">
+      Send
+    </button>
+  </div>
+
+  <div class="advert1">
+    <h3>Get 10 <span>FREE TOKENS</span> right now! Do not miss the moment!</h3>
+    <button class="control"><i class="fal fa-times"></i></button>
+    <button class="button-learn">Learn more</button>
+  </div>
+
+  <div class="advert2">
+    <h3>Get 10 <span>FREE TOKENS</span> right now! Do not miss the moment!</h3>
+    <button class="button-learn">Learn more</button>
+  </div>
+
+  <div class="header-unauthorized">
+    <div class="left">
+      <button><img src="img/more.svg" alt="more">Menu</button>
+    </div>
+    <div class="right">
+      <div class="links">
+        <a href="#">Videos</a>
+        <a href="#">Couples</a>
+        <a href="#">Media</a>
+        <a href="#">About</a>
+      </div>
+      <div class="profile">
+        <span class="login">Log In</span>
+        <button class="signup">Sign Up</button>
+        <div class="login-form">
+          <h3>Already have an account?</h3>
+          <div class="inputs">
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Password">
+          </div>
+          <button class="login-form-button">
+            Login
+          </button>
+          <span class="forgot-password">Forgot password?</span>
+        </div>
+
+        <div class="restore-password-form">
+          <h3>
+            We will send a password restoration link to the e-mail address saved in your account.
+          </h3>
+          <div class="inputs">
+            <input type="text" placeholder="Username or email">
+          </div>
+          <button class="restore-password-form-button">
+            Send
+          </button>
+        </div>
+      </div>
+      <div class="language">
+        <img src="img/english.png" alt="eng">
+      </div>
+    </div>
+  </div>
+
+  <div class="header-authorized">
+    <div class="left">
+      <button><img src="img/more.svg" alt="more">Menu</button>
+    </div>
+    <div class="right">
+      <div class="links">
+        <a href="#">Videos</a>
+        <a href="#">Couples</a>
+        <a href="#">Media</a>
+        <a href="#">About</a>
+      </div>
+      <div class="profile profile-popup-opened">
+        <span class="login">Catherine1997</span>
+        <img src="img/avatar.png" alt="avatar">
+        <button class="buy">Buy Premium</button>
+
+        <div class="profile-popup">
+          <h3><i class="far fa-user"></i>email@spymycams.com</h3>
+          <p class="active"> <i class="fal fa-id-card"></i>My Profile</p>
+          <p> <i class="far fa-cog"></i>Settings</p>
+          <p> <i class="far fa-sign-out"></i>Logout</p>
+        </div>
+
+      </div>
+      <div class="language">
+        <img src="img/english.png" alt="eng">
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="index-bundle.js"></script></body>
+
+</html>
